@@ -1,0 +1,55 @@
+{
+  "name": "satv-nft-bazaar",
+  "version": "0.0.1",
+  "description": "Satv bazar is a p2p NFT marketplace for trade, exchange and auction of physical assets.",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-truffle5": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.4.1",
+    "abi-decoder": "^2.4.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "bn-chai": "^1.0.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethereumjs-abi": "^0.6.8",
+    "ethers": "^5.5.2",
+    "ganache-cli": "^6.12.2",
+    "hardhat": "^2.8.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "semantic-release": "^18.0.1",
+    "solium": "^1.2.5",
+    "validate-commit-msg": "^2.14.0",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "lint": "npx solium -d contracts",
+    "lint:fix": "npx solium -d contracts --fix",
+    "semantic-release": "semantic-release",
+    "commit-msg": "validate-commit-msg",
+    "compile": "npx hardhat compile"
+  },
+  "author": "Abhishek Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avishkarabhishek786/satv-nft-bazaar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avishkarabhishek786/satv-nft-bazaar/issues"
+  },
+  "homepage": "https://github.com/avishkarabhishek786/satv-nft-bazaar#readme"
+}
